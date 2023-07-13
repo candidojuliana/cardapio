@@ -139,7 +139,30 @@ footer {
     .links {
         display: none; 
     }
+
+    .detalhes {
+        display: block;
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+    }
+    .div {
+        grid-column: 1;
+        align-content: start;
+        grid-row: 1;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    .links {
+        display: none; 
+    }
     
+    .menu {
+        margin: 24px;
+    }
     .detalhes {
         display: block;
         grid-template-columns: 1fr;
