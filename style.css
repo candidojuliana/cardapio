@@ -15,7 +15,7 @@ main {
 }
 
 
-h1 {
+.titulo {
     font-size: 50px;
     font-family: "Tangerine", serif;
     font-weight: bold;
@@ -24,9 +24,10 @@ h1 {
     padding: 4px;
     margin-top: 32px;
     margin-bottom: 12px;
+    margin-left: 40px;
 }
 
-h2 {
+.menu-titulo {
     padding-top: 64px;
     font-family: "Tangerine", serif;
     font-size: 36px;
@@ -35,10 +36,12 @@ h2 {
     color: #F0F5F9;
 }
 
-h3 {
+.menu-subtitulo {
     font-family: "Tangerine", serif;
     font-size: 48px;
     color: #F0F5F9;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -46,14 +49,14 @@ img {
     border-radius: 4px;
 }
 
-p {
+.descricao {
     font-size: 18px;
     border-top: 1px dashed gray;
     margin: 4px;
     color: #F0F5F9;
 }
 
-li {
+.detalhes, .navegacao {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     font-size: 28px;
@@ -97,6 +100,7 @@ a {
     margin-right: 180px;
     margin-left: 180px;
     margin-top: 8px;
+    padding-bottom: 24px;
 }
 
 .links {
@@ -107,7 +111,25 @@ a {
 
 
 footer {
-    margin: 60px;
+    margin: 40px;
 }
 
+.info-contato {
+    font-size: 24px;
+    color: #F0F5F9;
+}
 
+.contato {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.detalhe-contato {
+    text-decoration: none;
+    font-family: serif;
+    font-size: 18px;
+    color: #F0F5F9;
+    padding: 6px;
+
+
+}
