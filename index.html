@@ -4,95 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <li><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet"></li>
     <title>Menu</title>
 </head>
 <body>
-    <h1>Restaurante Luz do Sol</h1>
-    <h2>Menu</h2>
-    <h3>Entradas</h3>
-
-    <ul class="prato">
-        <li><img src="imagens/salada-tomate.jpg" alt="salada de tomate com queijo branco">
-            Salada Por do Sol
-            <span>R$ 19,00</span>
-            <p>Tomate, pimentão, pepino, aezitona preta e queijo branco</p>
-        </li>
-        <li> <img src="imagens/salada-figo.jpg" alt="salada verde com figo">
-            Salada Maresia
-            <span>R$ 27,90</span>
-            <p>Figo, tomate cereja, cenoura, pepino e alface e queijo de cabra</p>
-        </li>
-        <li><img src="imagens/salada-aspargos.jpg" alt="salada de aspargos com tomate">
-            Salada Frescor 
-            <span>R$ 15,90</span>
-            <p>Aspargos, tomate, ovo, azeite</p>
-        </li>
-    </ul>
-    <h3>Prato Principal</h3>
-        <ul class="prato">
-            <li> 
-                <img src="imagens/sobrecoxa.jpg" alt="sobrecoxa de frango com batatas">
-                Sobrecoxa com batatas ao molho de ervas finas
-                <span>R$ 55,00</span>
-                <p>Sobrecoxa de frango, batata abobrinha, tomate cereja, pimentão ao molho de ervas finas</p>
-            </li>
-
-            <li>
-                <img src="imagens/picanha.jpg" alt="bife com batatas fritas e farofa">
-                Bife com batatas fritas
-                <span>R$ 38,50</span>
-                <p>Filé mignon, batas fritas, arroz, farofa de alho e legumes</p>
-            </li>
-            <li><img src="imagens/macarrao-pesto.jpg" alt="macarrão ao molho pesto">
-                Macarrão ao molho pesto
-                <span>R$ 32,70</span>
-                <p>Macarrão, molho pesto de tomate cereja fresco</p>
-            </li>
-            <li> <img src="imagens/lasanha.jpg" alt="lasagna">
-                Lasagna
-                <span>R$ 47,60</span>
-                <p>Lasanha ao molho à bolonhesa, contém carne, queijo e molho de tomate fresco.</p>
-            </li>
+    <header>
+        <h1>Restaurante Luz do Sol</h1>
+        <ul class="links">
+            <li><a href="./">Sobre</a></li>
+            <li><a href="./">Galeria</a></li>
+            <li><a href="./">Contato</a></li>
         </ul>
-        <h3>Sopas</h3>
-        <ul class="prato">
-            <li><img src="imagens/sopa-tomate.jpg" alt="sopa de tomate">
-                Sopa de Tomate
-                <span>R$ 19,50</span>
-                <p>Tomate, cenoura, alho, cebola, azeite e especiarias. Acompanhado por Croûton</p>
-            </li>
-            <li><img src="imagens/sopa-ervilha.jpg" alt="sopa de ervilha">
-                Sopa de ervilha
-                <span>R$ 19,00</span>
-                <p>Ervilha, batata, alho, cebola, azeite e especiarias. Acompanhado por Croûton</p>
-            </li>
-        </ul>
-        <h3>Sobremesas</h3>
-        <ul class="prato">
-            <li><img src="imagens/cheesecake.jpg" alt="cheesecake de frutas vermelhas">
-                Cheesecake de frutas vermelhas
-                <span>R$ 31,00</span>
-                <p>Morango, framboesa, mirtilos e creamcheese</p>
-            </li>
-            <li><img src="imagens/tarte.jpg" alt="tarte de framboesa">
-                Tarte de freamboesa
-                <span>R$ 32,00</span>
-                <p>Framboesa, canela, açucar, vinho do porto</p>
-            </li>
-        </ul>
-        <h3>Bebidas</h3>
-        <ul class="prato">
-            <li><img src="imagens/suco-laranja.jpg" alt="suco dgit e laranja">
-                Suco de laranja
-                <span>R$ 11,00</span>
-                <p>Laranja, água</p>
-            </li>
-            <li> <img src="imagens/limonada.jpg" alt="limonada">
-                Limonada
-                <span>R$ 10,00</span>
-                <p>Limão e água</p>
-            </li>
-        </ul>
-
+    </header>
+    <main>
+        <div class="menu">
+            <h2>Menu</h2>
+            <h3>Entradas</h3>
+            <ul class="prato">
+                <li> <img src="imagens/salada-tomate.jpg" alt="salada de tomate">
+                    <div>
+                        Salada Por do Sol
+                        <p>Tomate, pimentão, pepino, aezitona preta e queijo branco</p>
+                    </div>
+                    <span>R$ 22,90</span>
+            
+                </li>
+                <li> <img src="imagens/salada-figo.jpg" alt="salada verde com figo">
+                    <span>R$ 27,90</span>
+                    <div>
+                        Salada Maresia
+                        <p>Figo, tomate cereja, cenoura, pepino e alface e queijo de cabra</p>
+                    </div>
+                </li>
+                <li><img src="imagens/salada-aspargos.jpg" alt="salada de aspargos com tomate">
+                    <span>R$ 15,90</span>
+                    <div>
+                        Salada Frescor
+                        <p>Aspargos, tomate, ovo, azeite</p>
+                    </div>
+                </li>
+            </ul>
+            <h3>Prato Principal</h3>
+                <ul class="prato">
+                    <li>
+                        <img src="imagens/sobrecoxa.jpg" alt="sobrecoxa de frango com batatas">
+                        <span>R$ 55,00</span>
+                        <div>
+                            Sobrecoxa ao molho de ervas finas
+                            <p>Sobrecoxa de frango, batata abobrinha, tomate cereja, pimentão ao molho de ervas finas</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagens/picanha.jpg" alt="bife com batatas fritas e farofa">
+                        <span>R$ 38,50</span>
+                        <div>
+                            Bife com batatas fritas
+                            <p>Filé mignon, batas fritas, arroz, farofa de alho e legumes</p>
+                        </div>
+                    </li>
+                    <li><img src="imagens/macarrao-pesto.jpg" alt="macarrão ao molho pesto">
+                        <span>R$ 32,70</span>
+                        <div>
+                            Macarrão ao molho pesto
+                            <p>Macarrão, molho pesto de tomate cereja fresco</p>
+                        </div>
+                    </li>
+                    <li> <img src="imagens/lasanha.jpg" alt="lasagna">
+                        <span>R$ 47,60</span>
+                        <div>
+                            Lasagna
+                            <p>Lasanha ao molho à bolonhesa, contém carne, queijo e molho de tomate fresco.</p>
+                        </div>
+                    </li>
+                </ul>
+                <h3>Sopas</h3>
+                <ul class="prato">
+                    <li><img src="imagens/sopa-tomate.jpg" alt="sopa de tomate">
+                        <span>R$ 19,50</span>
+                        <div>
+                            Sopa de Tomate
+                            <p>Tomate, cenoura, alho, cebola, azeite e especiarias. Acompanhado por Croûton</p>
+                        </div>
+                    </li>
+                    <li><img src="imagens/sopa-ervilha.jpg" alt="sopa de ervilha">
+                        <span>R$ 19,00</span>
+                        <div>
+                            Sopa de ervilha
+                            <p>Ervilha, batata, alho, cebola, azeite e especiarias. Acompanhado por Croûton</p>
+                        </div>
+                    </li>
+                </ul>
+                <h3>Sobremesas</h3>
+                <ul class="prato">
+                    <li><img src="imagens/cheesecake.jpg" alt="cheesecake de frutas vermelhas">
+                        <span>R$ 31,00</span>
+                        <div>
+                            Cheesecake de frutas vermelhas
+                            <p>Morango, framboesa, mirtilos e creamcheese</p>
+                        </div>
+                    </li>
+                    <li><img src="imagens/tarte.jpg" alt="tarte de framboesa">
+                        <span>R$ 32,00</span>
+                        <div>
+                            Tarte de freamboesa
+                            <p>Framboesa, canela, açucar, vinho do porto</p>
+                        </div>
+                    </li>
+                </ul>
+                <h3>Bebidas</h3>
+                <ul class="prato">
+                    <li><img src="imagens/suco-laranja.jpg" alt="suco dgit e laranja">
+                        <span>R$ 11,00</span>
+                        <div>
+                            Suco de laranja
+                            <p>Laranja, água</p>
+                        </div>
+                    </li>
+                    <li> <img src="imagens/limonada.jpg" alt="limonada">
+                        <span>R$ 10,00</span>
+                        <div>
+                            Limonada
+                            <p>Limão e água</p>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-informações">
+            <h3 class="font-2-l-b cor0">Informações</h3>
+            <nav>
+                <ul class="font-1-m cor5">
+                    <li><a href="./">Menus</a></li>
+                    <li><a href="./">Contato</a></li>
+                    <li><a href="./">Termos e Condiçoes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
