@@ -133,3 +133,21 @@ footer {
 
 
 }
+
+@media (max-width: 800px) {
+
+    .links {
+        display: none; 
+    }
+    
+    .detalhes {
+        display: block;
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+    }
+    .div {
+        grid-column: 1;
+        align-content: start;
+        grid-row: 1;
+    }
+}
