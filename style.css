@@ -167,6 +167,7 @@ footer {
         display: block;
         grid-template-columns: 1fr;
         padding-top: 40px;
+        justify-content: center;
     }
     .div {
         grid-column: 1;
